@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1575994848 source:m:\algorithms2019\graphs\graph.cpp
+	"graph.h"
+
+1575993445 m:\algorithms2019\graphs\graph.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<vector>
+
+1575996598 source:m:\algorithms2019\graphs\main.cpp
+	"graph.h"
+	<stack>
+	<queue>
+	<limits.h>
+
