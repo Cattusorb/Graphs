@@ -59,6 +59,7 @@ int* dfs(Graph* graph, int src) {
     for (int i = 0; i < graph->SIZE; i++)
     {
         prev[i] = NO_PREDECESSOR;
+        discovered[i] = false;
     }
 
     stack<int> s;
@@ -139,6 +140,7 @@ int main() {
 
     int* predbfs = bfs(graph, 0);
     int* preddfs = dfs(graph, 0);
+
     print_path(graph, predbfs, 5);
     print_path(graph, preddfs, 5);
 }
